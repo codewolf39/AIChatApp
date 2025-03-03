@@ -33,3 +33,45 @@ A modern AI-powered chat application built using **React, Node.js, MongoDB, Goog
 ![Image](https://github.com/user-attachments/assets/6ee3edf8-e0da-49cc-ad30-fa5ebe113511)
 
 
+### **Prerequisites**  
+Ensure you have the following installed before proceeding:  
+- **[Node.js](https://nodejs.org/)** (Latest LTS version)  
+- **MongoDB** (Ensure it's running locally or use a cloud database like [MongoDB Atlas](https://www.mongodb.com/atlas))  
+- **[Git](https://git-scm.com/)**  
+- A package manager (**npm** or **yarn**)  
+
+---
+
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+### **2️⃣ Install Dependencies**   
+Backend
+```sh
+cd backend
+npm install
+```
+Frontend
+```sh
+cd aichatapp
+npm install
+```
+### **3️⃣ Set Up Env Variables**  
+```sh
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+```
+### **4️⃣ Start the Application**  
+Backend
+```sh
+cd backend
+npm start
+```
+Frontend
+```sh
+cd aichatapp
+npm start
+```
+
